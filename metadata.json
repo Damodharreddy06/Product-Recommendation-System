@@ -1,0 +1,6 @@
+{
+  "name": "Product Recommendation System Using Machine Learning",
+  "description": "A machine-learning-based recommendation engine implementing Collaborative Filtering, Content-Based Filtering, and Hybrid Recommendation with comprehensive EDA, evaluation metrics, and exportable project files.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

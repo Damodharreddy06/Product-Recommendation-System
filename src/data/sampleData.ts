@@ -1,0 +1,302 @@
+import { Product, Rating } from '../types';
+
+export const sampleProducts: Product[] = [
+  {
+    product_id: "P101",
+    product_name: "Sony WH-1000XM5 Wireless Headphones",
+    category: "Audio",
+    brand: "Sony",
+    price: 399.99,
+    rating: 4.8,
+    description: "Industry leading noise canceling wireless over-ear headphones with 30-hour battery life and crystal clear hands-free calling"
+  },
+  {
+    product_id: "P102",
+    product_name: "Bose QuietComfort 45",
+    category: "Audio",
+    brand: "Bose",
+    price: 329.00,
+    rating: 4.7,
+    description: "Premium noise cancelling wireless headphones with acoustic noise cancelling technology, high-fidelity audio, and comfortable plush ear cushions"
+  },
+  {
+    product_id: "P103",
+    product_name: "Apple AirPods Pro 2nd Gen",
+    category: "Audio",
+    brand: "Apple",
+    price: 249.00,
+    rating: 4.8,
+    description: "True wireless earbuds with active noise cancellation, adaptive transparency, personalized spatial audio, and MagSafe charging case"
+  },
+  {
+    product_id: "P104",
+    product_name: "Sennheiser Momentum 4 Wireless",
+    category: "Audio",
+    brand: "Sennheiser",
+    price: 349.95,
+    rating: 4.6,
+    description: "Audiophile-grade wireless Bluetooth headphones with 60-hour battery life, adaptive ANC, and customizable sound equalizer"
+  },
+  {
+    product_id: "P105",
+    product_name: "JBL Flip 6 Portable Bluetooth Speaker",
+    category: "Audio",
+    brand: "JBL",
+    price: 129.95,
+    rating: 4.5,
+    description: "Waterproof portable Bluetooth speaker with powerful sound, deep bass, 12 hours playtime, and rugged durable design"
+  },
+  {
+    product_id: "P106",
+    product_name: "Sony SRS-XB13 Wireless Speaker",
+    category: "Audio",
+    brand: "Sony",
+    price: 59.99,
+    rating: 4.4,
+    description: "Compact portable waterproof wireless Bluetooth speaker with extra bass, sound diffusion processor, and detachable strap"
+  },
+  {
+    product_id: "P107",
+    product_name: "Apple MacBook Pro 14 M3",
+    category: "Computers",
+    brand: "Apple",
+    price: 1599.00,
+    rating: 4.9,
+    description: "High performance laptop with Apple M3 chip, 14.2-inch Liquid Retina XDR display, 512GB SSD, and 18-hour battery life"
+  },
+  {
+    product_id: "P108",
+    product_name: "Dell XPS 13 Plus Ultrabook",
+    category: "Computers",
+    brand: "Dell",
+    price: 1399.00,
+    rating: 4.5,
+    description: "Sleek premium ultrabook laptop with 13.4-inch OLED touch display, Intel Core i7 13th Gen, 16GB RAM, 512GB SSD"
+  },
+  {
+    product_id: "P109",
+    product_name: "Lenovo ThinkPad X1 Carbon Gen 11",
+    category: "Computers",
+    brand: "Lenovo",
+    price: 1450.00,
+    rating: 4.7,
+    description: "Business laptop with ultralight carbon fiber chassis, Intel Core i7, 16GB RAM, fingerprint reader, and legendary keyboard"
+  },
+  {
+    product_id: "P110",
+    product_name: "ASUS ROG Zephyrus G14 Gaming Laptop",
+    category: "Computers",
+    brand: "ASUS",
+    price: 1499.99,
+    rating: 4.6,
+    description: "Powerful compact gaming laptop with AMD Ryzen 9, NVIDIA GeForce RTX 4060 GPU, 165Hz QHD display, and vapor chamber cooling"
+  },
+  {
+    product_id: "P111",
+    product_name: "Logitech MX Master 3S Wireless Mouse",
+    category: "Electronics",
+    brand: "Logitech",
+    price: 99.99,
+    rating: 4.8,
+    description: "Ergonomic performance wireless mouse with 8K DPI sensor, quiet clicks, electromagnetic MagSpeed scrolling, and multi-device pairing"
+  },
+  {
+    product_id: "P112",
+    product_name: "Logitech MX Mechanical Wireless Keyboard",
+    category: "Electronics",
+    brand: "Logitech",
+    price: 169.99,
+    rating: 4.7,
+    description: "Low-profile tactile mechanical keyboard with smart backlighting, Bluetooth and USB receiver connectivity for multi-OS"
+  },
+  {
+    product_id: "P113",
+    product_name: "Anker 737 Power Bank 24000mAh",
+    category: "Electronics",
+    brand: "Anker",
+    price: 149.99,
+    rating: 4.7,
+    description: "High-speed 140W fast-charging portable charger battery bank with smart digital display for laptops, tablets, and phones"
+  },
+  {
+    product_id: "P114",
+    product_name: "Samsung 32-inch 4K UHD Smart Monitor M8",
+    category: "Electronics",
+    brand: "Samsung",
+    price: 499.99,
+    rating: 4.4,
+    description: "Slim 4K UHD smart monitor with built-in streaming apps, SlimFit camera, USB-C connectivity, and remote control"
+  },
+  {
+    product_id: "P115",
+    product_name: "Apple Watch Series 9",
+    category: "Wearables",
+    brand: "Apple",
+    price: 399.00,
+    rating: 4.8,
+    description: "Smartwatch with advanced health sensors, S9 SiP chip, double tap gesture, always-on Retina display, and ECG heart monitoring"
+  },
+  {
+    product_id: "P116",
+    product_name: "Samsung Galaxy Watch 6",
+    category: "Wearables",
+    brand: "Samsung",
+    price: 299.99,
+    rating: 4.5,
+    description: "Smartwatch with body composition analysis, advanced sleep tracking, personalized HR zones, and sapphire crystal glass"
+  },
+  {
+    product_id: "P117",
+    product_name: "Garmin Forerunner 265 GPS Running Watch",
+    category: "Wearables",
+    brand: "Garmin",
+    price: 449.99,
+    rating: 4.8,
+    description: "Lightweight GPS running smartwatch with colorful AMOLED display, training readiness metrics, triathlon mode, and HRV status"
+  },
+  {
+    product_id: "P118",
+    product_name: "Fitbit Charge 6 Fitness Tracker",
+    category: "Wearables",
+    brand: "Fitbit",
+    price: 159.95,
+    rating: 4.3,
+    description: "Health and fitness tracker with built-in GPS, YouTube Music controls, Google Maps navigation, ECG app, and 7-day battery"
+  },
+  {
+    product_id: "P119",
+    product_name: "Nespresso VertuoPlus Coffee Maker",
+    category: "Home & Kitchen",
+    brand: "Nespresso",
+    price: 169.00,
+    rating: 4.6,
+    description: "Automatic single-serve coffee and espresso machine with centrifusion extraction technology and milk frother bundle compatibility"
+  },
+  {
+    product_id: "P120",
+    product_name: "Breville Barista Touch Espresso Machine",
+    category: "Home & Kitchen",
+    brand: "Breville",
+    price: 999.95,
+    rating: 4.8,
+    description: "Automated touchscreen espresso machine with integrated conical burr grinder, automatic microfoam milk texturing, and thermoJet heating"
+  },
+  {
+    product_id: "P121",
+    product_name: "Instant Pot Duo 7-in-1 Pressure Cooker",
+    category: "Home & Kitchen",
+    brand: "Instant Pot",
+    price: 99.95,
+    rating: 4.7,
+    description: "Multi-use programmable pressure cooker, slow cooker, rice cooker, steamer, sauté, yogurt maker, and food warmer"
+  },
+  {
+    product_id: "P122",
+    product_name: "Ninja AF101 4-Quart Air Fryer",
+    category: "Home & Kitchen",
+    brand: "Ninja",
+    price: 119.99,
+    rating: 4.8,
+    description: "Compact digital air fryer that crisps, roasts, reheats, and dehydrates with wide temperature range and dishwasher-safe basket"
+  },
+  {
+    product_id: "P123",
+    product_name: "Bowflex SelectTech 552 Adjustable Dumbbells",
+    category: "Fitness",
+    brand: "Bowflex",
+    price: 429.00,
+    rating: 4.8,
+    description: "Space-saving adjustable dumbbells pairing from 5 to 52.5 lbs with rapid dial selector mechanism for home gym strength training"
+  },
+  {
+    product_id: "P124",
+    product_name: "Peloton Guide AI Strength Training",
+    category: "Fitness",
+    brand: "Peloton",
+    price: 195.00,
+    rating: 4.4,
+    description: "AI-powered movement tracking device for strength workouts that connects to your TV with rep tracking and form guidance"
+  },
+  {
+    product_id: "P125",
+    product_name: "Manduka PRO Yoga and Pilates Mat",
+    category: "Fitness",
+    brand: "Manduka",
+    price: 138.00,
+    rating: 4.7,
+    description: "Ultra-dense high-performance yoga mat with lifetime guarantee, joint protection, and non-slip textured grip surface"
+  }
+];
+
+export const sampleRatings: Rating[] = [
+  { user_id: "U1001", product_id: "P101", rating: 5.0, timestamp: 1698105600 },
+  { user_id: "U1001", product_id: "P102", rating: 4.5, timestamp: 1698192000 },
+  { user_id: "U1001", product_id: "P103", rating: 5.0, timestamp: 1698278400 },
+  { user_id: "U1001", product_id: "P104", rating: 4.0, timestamp: 1698364800 },
+  { user_id: "U1001", product_id: "P111", rating: 4.5, timestamp: 1698451200 },
+  { user_id: "U1002", product_id: "P107", rating: 5.0, timestamp: 1698105600 },
+  { user_id: "U1002", product_id: "P108", rating: 4.0, timestamp: 1698192000 },
+  { user_id: "U1002", product_id: "P109", rating: 4.5, timestamp: 1698278400 },
+  { user_id: "U1002", product_id: "P111", rating: 5.0, timestamp: 1698364800 },
+  { user_id: "U1002", product_id: "P112", rating: 4.5, timestamp: 1698451200 },
+  { user_id: "U1002", product_id: "P114", rating: 4.0, timestamp: 1698537600 },
+  { user_id: "U1003", product_id: "P115", rating: 5.0, timestamp: 1698105600 },
+  { user_id: "U1003", product_id: "P116", rating: 4.0, timestamp: 1698192000 },
+  { user_id: "U1003", product_id: "P117", rating: 5.0, timestamp: 1698278400 },
+  { user_id: "U1003", product_id: "P118", rating: 3.5, timestamp: 1698364800 },
+  { user_id: "U1003", product_id: "P123", rating: 4.5, timestamp: 1698451200 },
+  { user_id: "U1003", product_id: "P124", rating: 4.0, timestamp: 1698537600 },
+  { user_id: "U1004", product_id: "P119", rating: 5.0, timestamp: 1698105600 },
+  { user_id: "U1004", product_id: "P120", rating: 5.0, timestamp: 1698192000 },
+  { user_id: "U1004", product_id: "P121", rating: 4.5, timestamp: 1698278400 },
+  { user_id: "U1004", product_id: "P122", rating: 4.5, timestamp: 1698364800 },
+  { user_id: "U1004", product_id: "P105", rating: 4.0, timestamp: 1698451200 },
+  { user_id: "U1005", product_id: "P101", rating: 4.5, timestamp: 1698105600 },
+  { user_id: "U1005", product_id: "P103", rating: 5.0, timestamp: 1698192000 },
+  { user_id: "U1005", product_id: "P105", rating: 4.5, timestamp: 1698278400 },
+  { user_id: "U1005", product_id: "P106", rating: 4.0, timestamp: 1698364800 },
+  { user_id: "U1005", product_id: "P115", rating: 4.5, timestamp: 1698451200 },
+  { user_id: "U1006", product_id: "P107", rating: 4.5, timestamp: 1698105600 },
+  { user_id: "U1006", product_id: "P110", rating: 5.0, timestamp: 1698192000 },
+  { user_id: "U1006", product_id: "P111", rating: 4.0, timestamp: 1698278400 },
+  { user_id: "U1006", product_id: "P112", rating: 4.5, timestamp: 1698364800 },
+  { user_id: "U1006", product_id: "P113", rating: 4.5, timestamp: 1698451200 },
+  { user_id: "U1007", product_id: "P123", rating: 5.0, timestamp: 1698105600 },
+  { user_id: "U1007", product_id: "P124", rating: 4.5, timestamp: 1698192000 },
+  { user_id: "U1007", product_id: "P125", rating: 5.0, timestamp: 1698278400 },
+  { user_id: "U1007", product_id: "P117", rating: 4.5, timestamp: 1698364800 },
+  { user_id: "U1007", product_id: "P118", rating: 4.0, timestamp: 1698451200 },
+  { user_id: "U1008", product_id: "P101", rating: 4.0, timestamp: 1698105600 },
+  { user_id: "U1008", product_id: "P102", rating: 4.5, timestamp: 1698192000 },
+  { user_id: "U1008", product_id: "P107", rating: 5.0, timestamp: 1698278400 },
+  { user_id: "U1008", product_id: "P109", rating: 4.5, timestamp: 1698364800 },
+  { user_id: "U1008", product_id: "P111", rating: 4.5, timestamp: 1698451200 },
+  { user_id: "U1008", product_id: "P113", rating: 5.0, timestamp: 1698537600 },
+  { user_id: "U1009", product_id: "P119", rating: 4.5, timestamp: 1698105600 },
+  { user_id: "U1009", product_id: "P121", rating: 5.0, timestamp: 1698192000 },
+  { user_id: "U1009", product_id: "P122", rating: 4.5, timestamp: 1698278400 },
+  { user_id: "U1009", product_id: "P125", rating: 4.0, timestamp: 1698364800 },
+  { user_id: "U1010", product_id: "P103", rating: 4.5, timestamp: 1698105600 },
+  { user_id: "U1010", product_id: "P107", rating: 5.0, timestamp: 1698192000 },
+  { user_id: "U1010", product_id: "P115", rating: 5.0, timestamp: 1698278400 },
+  { user_id: "U1010", product_id: "P116", rating: 4.0, timestamp: 1698364800 },
+  { user_id: "U1010", product_id: "P113", rating: 4.5, timestamp: 1698451200 },
+  { user_id: "U1011", product_id: "P104", rating: 5.0, timestamp: 1698105600 },
+  { user_id: "U1011", product_id: "P105", rating: 4.0, timestamp: 1698192000 },
+  { user_id: "U1011", product_id: "P106", rating: 4.5, timestamp: 1698278400 },
+  { user_id: "U1011", product_id: "P101", rating: 4.5, timestamp: 1698364800 },
+  { user_id: "U1012", product_id: "P108", rating: 4.0, timestamp: 1698105600 },
+  { user_id: "U1012", product_id: "P110", rating: 4.5, timestamp: 1698192000 },
+  { user_id: "U1012", product_id: "P112", rating: 4.0, timestamp: 1698278400 },
+  { user_id: "U1012", product_id: "P114", rating: 4.5, timestamp: 1698364800 },
+  { user_id: "U1013", product_id: "P120", rating: 5.0, timestamp: 1698105600 },
+  { user_id: "U1013", product_id: "P121", rating: 4.5, timestamp: 1698192000 },
+  { user_id: "U1013", product_id: "P122", rating: 4.0, timestamp: 1698278400 },
+  { user_id: "U1014", product_id: "P117", rating: 5.0, timestamp: 1698105600 },
+  { user_id: "U1014", product_id: "P123", rating: 4.5, timestamp: 1698192000 },
+  { user_id: "U1014", product_id: "P125", rating: 4.5, timestamp: 1698278400 },
+  { user_id: "U1015", product_id: "P101", rating: 5.0, timestamp: 1698105600 },
+  { user_id: "U1015", product_id: "P107", rating: 4.5, timestamp: 1698192000 },
+  { user_id: "U1015", product_id: "P111", rating: 4.0, timestamp: 1698278400 },
+  { user_id: "U1015", product_id: "P115", rating: 4.5, timestamp: 1698364800 }
+];

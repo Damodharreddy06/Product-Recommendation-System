@@ -1,0 +1,28 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDE and OS files
+.DS_Store
+.vscode/
+.idea/
+
+# Streamlit config & secrets
+.streamlit/secrets.toml
+
+# Outputs and logs
+*.log
